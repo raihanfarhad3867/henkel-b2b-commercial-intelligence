@@ -1,0 +1,7 @@
+﻿Signal_ID,Theme,Geographic_Scope,Evidence_Fact,Commercial_HYPOTHESIS_Not_Fact,Source_ID,Evidence_Status
+SIG-01,Footwear manufacturing presence,Vietnam,"TBS, Pou Chen and TKG publish footwear manufacturing activity","A plausible environment for product/process research, not evidence of accessible opportunity",S01;S02;S03,Verified manufacturer presence
+SIG-02,Automated footwear production applications,Global,"Henkel describes process efficiency, PUR hot melts and water-based systems for shoes",Test cost-in-use and technical qualification requirements for particular facilities,S07,Verified product applications
+SIG-03,Corrugated capacity investment,Poland,Mondi announced completion of a €90m Mszczonow plant upgrade in 2024,A reason to investigate process modernization; not proof that adhesives are being re-sourced,S05,Verified investment event
+SIG-04,Converter network integration,Poland,Saica completed acquisition of Bydgoszcz and Wroclaw corrugated plants in 2024,A reason to investigate procurement integration; not evidence of a change in supplier,S06,Verified acquisition event
+SIG-05,PPWR becomes applicable,EU,European Commission states PPWR applies from 12 Aug 2026,"Potential trigger for packaging-design and compliance dialogue, subject to specific requirements",S14,Verified regulation
+SIG-06,Industry optimisation risk,Europe,Mondi reports network optimisation/closures in H1 2026,Do not assume all plants are expanding; check active site and capacity before sizing demand,S15,Company reported event

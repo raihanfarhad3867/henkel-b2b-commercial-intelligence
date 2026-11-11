@@ -1,0 +1,16 @@
+{
+  "case_count": 8,
+  "simulated_monthly_records": 144,
+  "simulated_sales_2025_9m_eur": 322790.0,
+  "simulated_sales_2026_9m_eur": 291163.0,
+  "sales_yoy_pct": -9.798,
+  "volume_effect_eur": -41490.0,
+  "price_effect_eur": 9863.0,
+  "bridge_reconciliation_eur": 0.0,
+  "closed_wins": 5,
+  "closed_losses": 5,
+  "closed_win_rate_pct": 50.0,
+  "open_opportunities": 6,
+  "highest_option_expected_net_total_eur": 8102.4,
+  "all_data": "SIMULATED; no actual Henkel CRM sales, distributor or customer data"
+}

@@ -1,0 +1,11 @@
+﻿ID,Decision_Area,Business_Question,Evidence_Needed,Caution
+Q01,Growth quality,"Was the last reported growth mostly pricing or volume, and how does it differ by business area?",P1_AT_Quarterly; P1_APC_Quarterly,Avoid assigning Adhesive Technologies price split to APC
+Q02,Buyer structure,"Who owns the adhesive specification at an OEM factory: brand, factory engineering or central procurement?",Public + authorized internal conversations,Unknown for the listed accounts
+Q03,Application fit,What substrate and temperature conditions determine adhesive suitability?,Henkel product documentation + technical validation,Public product pages do not prove plant compatibility
+Q04,Channel design,Is a global key account/direct-sales model or local distributor model appropriate?,"Coverage, procurement, service and authorized CRM",Account-specific route to market unknown
+Q05,Economic value,Can higher adhesive prices reduce scrap or downtime enough to improve total cost-in-use?,Customer process data + trial measurement,Do not invent defect/throughput improvements
+Q06,Win/loss,"If a plant doesn't buy Henkel, is it price, qualification, incumbent contracts or performance?",CRM loss reasons + account interviews,No verified incumbency for any named account
+Q07,Packaging regulation,Which PPWR provision actually affects a specific packaging design?,EU legal text + technical regulatory review,PPWR date alone is not a sales lead
+Q08,Profitability,"What is incremental contribution after trials, sales support, logistics and discounts?",Finance/controlling + segment actuals,P3 models are hypothetical economics
+Q09,Commercial evidence,What evidence must be present before management calls this white space?,Gate approvals + qualified spend + competitive position,Not satisfied with public data alone
+Q10,Portfolio strategy,Which pilot creates most learning while minimizing unsupported spend?,Research interest score + trial feasibility + costs,Research screening is not commercial priority

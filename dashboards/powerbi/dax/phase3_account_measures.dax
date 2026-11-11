@@ -1,0 +1,41 @@
+// Henkel APC Phase 3 — Public manufacturer research and simulated economics
+// The P3_Account_Research table represents research cases, not current customers or qualified leads.
+// All P3_Scenario_Lab values are SIMULATED. No actual Henkel client/distributor data is included.
+
+P3 Research Units = DISTINCTCOUNT('P3_Account_Research'[Research_ID])
+
+P3 Footwear Research Units =
+CALCULATE([P3 Research Units],
+    'P3_Account_Research'[Application_Market] = "Sports & Fashion / Footwear")
+
+P3 Packaging Research Units =
+CALCULATE([P3 Research Units],
+    'P3_Account_Research'[Application_Market] = "Packaging & Converting / Corrugated")
+
+P3 Unverified Qualification Gates =
+CALCULATE(COUNTROWS('P3_Qualification_Gates'),
+    'P3_Qualification_Gates'[Gate_Status] = "Unverified")
+
+P3 Verified Qualification Gates =
+CALCULATE(COUNTROWS('P3_Qualification_Gates'),
+    'P3_Qualification_Gates'[Gate_Status] = "Verified")
+
+P3 Average Research Interest =
+AVERAGE('P3_Account_Screening'[Research_Interest_0to100_CALC])
+
+P3 Simulated Annual Revenue =
+SUM('P3_Scenario_Lab'[Captured_Revenue_EUR_CALC])
+
+P3 Simulated Net Contribution =
+SUM('P3_Scenario_Lab'[Net_Contribution_EUR_CALC])
+
+P3 Simulated Volume Downside =
+SUM('P3_Scenario_Lab'[Net_Contribution_20pct_Volume_Down_CALC])
+
+// Recommended pages:
+// 1) Research scope and source evidence
+// 2) Site and application investigation
+// 3) Qualification gates (all "Unverified" initially)
+// 4) Technology/competitor overlap
+// 5) SIMULATED scenario sensitivity — clearly segregated from named accounts
+// Keep official Henkel financial facts on separate pages/tables from anonymous simulated models.

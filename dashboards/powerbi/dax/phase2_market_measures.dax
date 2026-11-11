@@ -1,0 +1,28 @@
+// Import P2_Opportunity_Model.csv as a separate SIMULATED table in Power BI.
+// NEVER join simulated figures into Henkel public actuals without a clear scenario flag.
+
+Scenario Revenue EUR =
+SUM('P2_Opportunity_Model'[Expected_Revenue_EUR_CALC])
+
+Scenario Addressable EUR =
+SUM('P2_Opportunity_Model'[Addressable_Revenue_EUR_CALC])
+
+Scenario Net Contribution EUR =
+SUM('P2_Opportunity_Model'[Net_Contribution_EUR_CALC])
+
+Scenario Contribution Rate =
+DIVIDE([Scenario Net Contribution EUR], [Scenario Revenue EUR])
+
+Positive Scenario Count =
+COUNTROWS(FILTER('P2_Opportunity_Model', 'P2_Opportunity_Model'[Net_Contribution_EUR_CALC] > 0))
+
+Scenario Revenue Under 20pct Stress EUR =
+SUM('P2_Sensitivity'[Revenue_After_20pct_Volume_Shortfall])
+
+Scenario Net Contribution Under Stress EUR =
+SUM('P2_Sensitivity'[Net_Contribution_After_Shock_EUR])
+
+// Suggested pages: Market Evidence; Product/Application Value; Scenario Economics;
+// Hypothesis Tests and Decision Gates.
+// Only add metrics from public reports where source date, reporting level and
+// metric definition match. Waste tonnes and footwear pairs are NOT adhesive TAM.

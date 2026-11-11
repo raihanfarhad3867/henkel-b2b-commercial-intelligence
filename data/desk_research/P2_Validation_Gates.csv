@@ -1,0 +1,9 @@
+﻿Gate_ID,Gate,Evidence_Required,Decision_Rule,Owner_to_Ask,Status,Why_It_Matters
+G01,Confirm exact team scope,"Team definition of FSC, APC coverage, countries, channels",Don't assert FSC scope until manager confirms,Hiring manager / supervisor,OPEN,Avoid analyzing the wrong commercial perimeter
+G02,Validate target-account counts,"Actual eligible manufacturer list, segmentation, existing coverage",Replace synthetic counts only with authorized validated numbers,Regional sales + CRM owner,OPEN,Market production is not number of qualified prospects
+G03,Verify technical compatibility,"Substrate, bond requirements, trial outcomes, technical specs",Engineer sign-off before opportunity is sales-qualified,Application engineering,OPEN,Many high-volume factories may be non-addressable
+G04,Distinguish sell-in from sell-out,Distributor purchase orders and downstream point-of-sale/customer demand,Do not interpret stocking as end-user demand,Channel manager / sales ops,OPEN,Inventory timing can distort commercial growth
+G05,Validate opportunity unit economics,"Approved product price, true COGS, channel fees, trials, service costs",Only then promote scenario to a revenue plan,Finance + sales + supply chain,OPEN,Gross revenue is not profitable growth
+G06,Check regulatory details,"Applicable article, packaging type, transition period, compliance team sign-off",Do not claim all PPWR requirements apply in 2026,Regulatory + application experts,OPEN,Requirement dates differ by provision
+G07,Test competitor claims,"Product data sheets, objective benchmarking and customer-approved trial",No unsupported 'best' or 'leader' claims,Commercial excellence + technical,OPEN,Public web portfolios do not show actual customer preference
+G08,Check time-series comparisons,"Same geography, time periods, source versions and products",Do not compare waste tonnes with adhesive kilograms,Data owner / analyst,OPEN,Proxy errors can invalidate white-space estimates

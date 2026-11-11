@@ -1,0 +1,76 @@
+-- INDEPENDENT PORTFOLIO: ALL P5 MEASURES USE SIMULATED DATA
+-- Import P5_Synthetic_Experiment_Panel.csv as FactP5Months.
+-- Import P5_Experiment_Design.csv as DimP5Experiment.
+-- Create relationship: DimP5Experiment[Experiment_ID] 1:* FactP5Months[Experiment_ID].
+-- Do NOT relate FactP5Months to actual Henkel_Public_Data or to the unrelated P4 synthetic sales ledger.
+-- Three pre and three post periods per synthetic account in this DEMONSTRATION.
+
+P5 Synthetic Sales EUR =
+SUM(FactP5Months[Net_Sales_EUR_SIM])
+
+P5 Synthetic Contribution EUR =
+SUM(FactP5Months[Contribution_EUR_SIM])
+
+P5 Synthetic Volume KG =
+SUM(FactP5Months[Volume_Kg_SIM])
+
+P5 Synthetic Account Count =
+DISTINCTCOUNT(FactP5Months[Synthetic_Account_ID])
+
+P5 Treated Account Count =
+CALCULATE(
+    DISTINCTCOUNT(FactP5Months[Synthetic_Account_ID]),
+    FactP5Months[Arm] = "Treatment",
+    REMOVEFILTERS(FactP5Months[Period])
+)
+
+P5 Pre-Treatment Monthly Contribution Per Account EUR =
+DIVIDE(
+    CALCULATE([P5 Synthetic Contribution EUR], FactP5Months[Arm] = "Treatment", FactP5Months[Period] = "Pre"),
+    [P5 Treated Account Count] * 3
+)
+
+P5 Post-Treatment Monthly Contribution Per Account EUR =
+DIVIDE(
+    CALCULATE([P5 Synthetic Contribution EUR], FactP5Months[Arm] = "Treatment", FactP5Months[Period] = "Post"),
+    [P5 Treated Account Count] * 3
+)
+
+P5 Control Account Count =
+CALCULATE(
+    DISTINCTCOUNT(FactP5Months[Synthetic_Account_ID]),
+    FactP5Months[Arm] = "Control",
+    REMOVEFILTERS(FactP5Months[Period])
+)
+
+P5 Pre-Control Monthly Contribution Per Account EUR =
+DIVIDE(
+    CALCULATE([P5 Synthetic Contribution EUR], FactP5Months[Arm] = "Control", FactP5Months[Period] = "Pre"),
+    [P5 Control Account Count] * 3
+)
+
+P5 Post-Control Monthly Contribution Per Account EUR =
+DIVIDE(
+    CALCULATE([P5 Synthetic Contribution EUR], FactP5Months[Arm] = "Control", FactP5Months[Period] = "Post"),
+    [P5 Control Account Count] * 3
+)
+
+P5 Simulated DiD EUR Per Account Month =
+([P5 Post-Treatment Monthly Contribution Per Account EUR] - [P5 Pre-Treatment Monthly Contribution Per Account EUR])
+- ([P5 Post-Control Monthly Contribution Per Account EUR] - [P5 Pre-Control Monthly Contribution Per Account EUR])
+
+P5 Hypothetical Annualized Incremental Contribution EUR =
+[P5 Simulated DiD EUR Per Account Month] * [P5 Treated Account Count] * 12
+
+P5 Hypothetical Program Cost EUR =
+SELECTEDVALUE(DimP5Experiment[Program_Cost_EUR_ASSUMED])
+
+P5 Hypothetical Net EUR =
+[P5 Hypothetical Annualized Incremental Contribution EUR] - [P5 Hypothetical Program Cost EUR]
+
+P5 Simulation Label =
+"SIMULATED | NOT HENKEL CUSTOMER / DISTRIBUTOR DATA"
+
+-- The measures are designed for SINGLE-EXPERIMENT FILTER CONTEXT.
+-- Annualized figures must not be blindly summed across overlapping commercial programs.
+-- A descriptive DiD in a synthetic panel does not establish a causal effect for real accounts.

@@ -1,0 +1,6 @@
+*.xlsx binary
+*.pptx binary
+*.png binary
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.dax text eol=lf

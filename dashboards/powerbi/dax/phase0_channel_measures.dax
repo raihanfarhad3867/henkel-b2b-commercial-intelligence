@@ -1,0 +1,16 @@
+// Power BI measures. All operational tables are SIMULATED.
+// Load sales_performance.csv as SalesPerformance.
+Simulated Sales EUR = SUM(SalesPerformance[Sales_EUR])
+Simulated Prior Sales EUR = SUM(SalesPerformance[Prior_Sales_EUR])
+Simulated Target EUR = SUM(SalesPerformance[Target_EUR])
+Simulated YoY Growth = DIVIDE([Simulated Sales EUR], [Simulated Prior Sales EUR]) - 1
+Simulated Target Attainment = DIVIDE([Simulated Sales EUR], [Simulated Target EUR])
+Simulated Sales Gap EUR = [Simulated Sales EUR] - [Simulated Prior Sales EUR]
+// Load growth_drop_alerts.csv as GrowthDropAlerts.
+Simulated Drop Alerts = COUNTROWS(GrowthDropAlerts)
+// Load distributor_scorecard.csv as DistributorScorecard.
+Simulated At-Risk Distributors = CALCULATE(DISTINCTCOUNT(DistributorScorecard[Distributor_ID]), DistributorScorecard[Risk_Flag] = "HIGH")
+// Load whitespace_opportunities.csv as WhiteSpaceOpportunities.
+Illustrative Capture EUR = SUM(WhiteSpaceOpportunities[Illustrative_Capture_EUR])
+// Load action_queue.csv as ActionQueue.
+Simulated Priority Score = AVERAGE(ActionQueue[Priority_Score_0_100])

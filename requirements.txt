@@ -1,0 +1,5 @@
+# The three analysis engines and repository tests use only the Python standard library (3.10+).
+# Optional for executing the Jupyter notebooks interactively:
+# jupyterlab>=4
+# The Excel workbook can be opened in Excel or another compatible spreadsheet application.
+# Power BI Desktop is required to create a .pbix from the supplied DAX and CSVs.

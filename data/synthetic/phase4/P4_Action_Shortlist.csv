@@ -1,0 +1,9 @@
+﻿Case_ID,Highest_Model_Score_Action_ID,Action,Expected_Net_Contribution_EUR_SIM,Mandatory_Approval_Gate,Decision_Status,Data_Status
+SIM-VN-FW-01,ACT-01,Technical qualification pilot,2575.0,Needs technical approval,Screened option only; approval pending,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+SIM-VN-FW-02,HOLD,No positive modeled intervention,0,Reassess evidence and assumptions,Hold; no economically positive option,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+SIM-VN-FW-03,HOLD,No modeled intervention,0,Investigate before prioritizing,Hold / no monetized option,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+SIM-VN-FW-04,ACT-07,Complete delayed qualification,2292.2,Confirm trial success and qualification,Screened option only; approval pending,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+SIM-EU-PK-01,ACT-10,OTIF recovery and safety stock,1995.0,Validate stock cost and service root cause,Screened option only; approval pending,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+SIM-EU-PK-02,ACT-16,Scale qualified paper-mailer application,1008.2,Validate repeatability and compliance,Screened option only; approval pending,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+SIM-EU-PK-03,ACT-13,Total-cost-in-use value selling,232.0,Needs comparable technical and cost evidence,Screened option only; approval pending,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+SIM-EU-PK-04,HOLD,No positive modeled intervention,0,Reassess evidence and assumptions,Hold; no economically positive option,SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA

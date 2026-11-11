@@ -1,0 +1,62 @@
+-- HENKEL APC PHASE 4 | POWER BI MEASURES
+-- ALL CUSTOMER, ACCOUNT, CRM, DISTRIBUTOR AND ACTION INPUTS ARE SIMULATED.
+-- Do not interpret these measures as Henkel results.
+-- Import Phase 4 CSVs; use DimCase and DimDate relationships documented in README.
+
+DimDate =
+ADDCOLUMNS (
+    CALENDAR ( DATE(2025,1,1), DATE(2026,9,30) ),
+    "Year", YEAR ( [Date] ),
+    "MonthNumber", MONTH ( [Date] ),
+    "YearMonth", FORMAT ( [Date], "YYYY-MM" )
+)
+
+Sim Sales EUR = SUM ( P4_Monthly_Orders[Net_Sales_EUR_SIM_CALC] )
+Sim Volume kg = SUM ( P4_Monthly_Orders[Volume_kg_SIM] )
+Sim Contribution EUR = SUM ( P4_Monthly_Orders[Contribution_EUR_SIM_CALC] )
+
+Sim Sales 2025 9M EUR =
+CALCULATE ( [Sim Sales EUR], DimDate[Year] = 2025 )
+
+Sim Sales 2026 9M EUR =
+CALCULATE ( [Sim Sales EUR], DimDate[Year] = 2026 )
+
+Sim Sales YoY pct =
+DIVIDE ( [Sim Sales 2026 9M EUR] - [Sim Sales 2025 9M EUR], [Sim Sales 2025 9M EUR] )
+
+Sim Price Effect EUR = SUM ( P4_Diagnostics[Price_Effect_EUR_CALC] )
+Sim Volume Effect EUR = SUM ( P4_Diagnostics[Volume_Effect_EUR_CALC] )
+Sim Sales Change EUR = SUM ( P4_Diagnostics[Sales_Change_EUR_CALC] )
+Sim Bridge Check EUR =
+[Sim Price Effect EUR] + [Sim Volume Effect EUR] - [Sim Sales Change EUR]
+
+Sim Won Opportunities =
+CALCULATE ( COUNTROWS ( P4_Win_Loss ), P4_Win_Loss[Opportunity_Stage] = "Won" )
+
+Sim Lost Opportunities =
+CALCULATE ( COUNTROWS ( P4_Win_Loss ), P4_Win_Loss[Opportunity_Stage] = "Lost" )
+
+Sim Open Opportunities =
+CALCULATE ( COUNTROWS ( P4_Win_Loss ), P4_Win_Loss[Opportunity_Stage] = "Open" )
+
+Sim Closed Win Rate =
+DIVIDE ( [Sim Won Opportunities], [Sim Won Opportunities] + [Sim Lost Opportunities] )
+
+Sim Option Expected Net EUR =
+SUM ( P4_Interventions[Expected_Net_Contribution_EUR_CALC] )
+
+Sim Screened Selected Net EUR =
+SUM ( P4_Action_Shortlist[Expected_Net_Contribution_EUR_SIM] )
+
+Sim Evidence Items = COUNTROWS ( P4_Evidence_Log )
+
+-- REQUIRED MODEL BOUNDARIES
+-- DimCase[Case_ID] -> P4_Monthly_Orders[Case_ID] 1:many
+-- DimCase[Case_ID] -> P4_Win_Loss[Case_ID] 1:many
+-- DimCase[Case_ID] -> P4_Interventions[Case_ID] 1:many
+-- DimCase[Case_ID] -> P4_Evidence_Log[Case_ID] 1:many
+-- DimCase[Case_ID] -> P4_Diagnostics[Case_ID] 1:1
+-- DimCase[Case_ID] -> P4_Action_Shortlist[Case_ID] 1:1
+-- DimDate[Date] -> P4_Monthly_Orders[Month_Start] 1:many
+-- Single-direction filtering only. Do not fact-to-fact join.
+-- IMPORTANT: disconnected official Henkel data belongs on a separate report page.

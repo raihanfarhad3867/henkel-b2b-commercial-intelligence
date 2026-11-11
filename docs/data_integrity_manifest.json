@@ -1,0 +1,11 @@
+{
+  "build_date": "2026-11-12",
+  "baseline_original_workbook_sha256": "70684777307400bd2ae1f5f1dc3010cdff5609ab2a60c8008b25170b2712efe3",
+  "final_phase5_workbook_sha256_original": "f070e99032cb527c0bbb8ed668271d6ed06d5970c7f26b18b3fcb684fa9ef5f3",
+  "repo_final_workbook_sha256": "f070e99032cb527c0bbb8ed668271d6ed06d5970c7f26b18b3fcb684fa9ef5f3",
+  "original_channel_export_csv_sha256": "b1bcf387590c977e82c7287c6c4f1ded2164923715c7b268a4aae0bc0dcb84c7",
+  "source_note": "Original simulated rows exported without changing underlying table values; external source claims require checking linked primary publications.",
+  "source_workbook_sheet": "Simulated_Channel_Data",
+  "source_records": 1440,
+  "final_workbook_location": "dashboards/excel/Henkel_APC_Complete_Portfolio_Phase5.xlsx"
+}

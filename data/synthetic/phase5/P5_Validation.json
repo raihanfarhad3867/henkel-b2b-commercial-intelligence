@@ -1,0 +1,133 @@
+{
+  "seed": 20261111,
+  "panel_rows": 720,
+  "experiments": 5,
+  "distinct_synthetic_accounts": 120,
+  "treatment_control_balance": {
+    "EX-01": {
+      "Treatment": 12,
+      "Control": 12
+    },
+    "EX-02": {
+      "Treatment": 12,
+      "Control": 12
+    },
+    "EX-03": {
+      "Treatment": 12,
+      "Control": 12
+    },
+    "EX-04": {
+      "Treatment": 12,
+      "Control": 12
+    },
+    "EX-05": {
+      "Treatment": 12,
+      "Control": 12
+    }
+  },
+  "data_status": "SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA",
+  "effects": [
+    {
+      "Experiment_ID": "EX-01",
+      "Program": "Technical qualification recovery",
+      "Treated_Accounts_SIM": 12,
+      "Control_Accounts_SIM": 12,
+      "Treatment_Pre_Contribution_EUR_per_Account_Month_SIM": 224.68,
+      "Treatment_Post_Contribution_EUR_per_Account_Month_SIM": 272.91,
+      "Control_Pre_Contribution_EUR_per_Account_Month_SIM": 242.01,
+      "Control_Post_Contribution_EUR_per_Account_Month_SIM": 245.26,
+      "DiD_EUR_per_Account_Month_CALC": 44.98,
+      "Annualized_Contribution_Before_Program_EUR_SCENARIO": 6477.0,
+      "Program_Fixed_Cost_EUR_ASSUMED": 2400,
+      "Annualized_Net_EUR_SCENARIO": 4077.0,
+      "Bootstrap_90pct_Low_Net_EUR_SIM": 3326.84,
+      "Bootstrap_90pct_High_Net_EUR_SIM": 4910.2,
+      "Decision_Screen": "CONDITIONAL PILOT — gates required",
+      "Causal_Interpretation": "NOT causal proof; simulated counterfactual with stated design limitations",
+      "Data_Status": "SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA"
+    },
+    {
+      "Experiment_ID": "EX-02",
+      "Program": "Distributor skills & joint selling",
+      "Treated_Accounts_SIM": 12,
+      "Control_Accounts_SIM": 12,
+      "Treatment_Pre_Contribution_EUR_per_Account_Month_SIM": 240.69,
+      "Treatment_Post_Contribution_EUR_per_Account_Month_SIM": 269.79,
+      "Control_Pre_Contribution_EUR_per_Account_Month_SIM": 250.84,
+      "Control_Post_Contribution_EUR_per_Account_Month_SIM": 258.82,
+      "DiD_EUR_per_Account_Month_CALC": 21.13,
+      "Annualized_Contribution_Before_Program_EUR_SCENARIO": 3042.12,
+      "Program_Fixed_Cost_EUR_ASSUMED": 1500,
+      "Annualized_Net_EUR_SCENARIO": 1542.12,
+      "Bootstrap_90pct_Low_Net_EUR_SIM": 885.8,
+      "Bootstrap_90pct_High_Net_EUR_SIM": 2222.8,
+      "Decision_Screen": "CONDITIONAL PILOT — gates required",
+      "Causal_Interpretation": "NOT causal proof; simulated counterfactual with stated design limitations",
+      "Data_Status": "SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA"
+    },
+    {
+      "Experiment_ID": "EX-03",
+      "Program": "OTIF service-recovery intervention",
+      "Treated_Accounts_SIM": 12,
+      "Control_Accounts_SIM": 12,
+      "Treatment_Pre_Contribution_EUR_per_Account_Month_SIM": 204.74,
+      "Treatment_Post_Contribution_EUR_per_Account_Month_SIM": 241.68,
+      "Control_Pre_Contribution_EUR_per_Account_Month_SIM": 194.84,
+      "Control_Post_Contribution_EUR_per_Account_Month_SIM": 201.12,
+      "DiD_EUR_per_Account_Month_CALC": 30.66,
+      "Annualized_Contribution_Before_Program_EUR_SCENARIO": 4415.36,
+      "Program_Fixed_Cost_EUR_ASSUMED": 1900,
+      "Annualized_Net_EUR_SCENARIO": 2515.36,
+      "Bootstrap_90pct_Low_Net_EUR_SIM": 1920.68,
+      "Bootstrap_90pct_High_Net_EUR_SIM": 3087.08,
+      "Decision_Screen": "CONDITIONAL PILOT — gates required",
+      "Causal_Interpretation": "NOT causal proof; simulated counterfactual with stated design limitations",
+      "Data_Status": "SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA"
+    },
+    {
+      "Experiment_ID": "EX-04",
+      "Program": "Value-selling coaching",
+      "Treated_Accounts_SIM": 12,
+      "Control_Accounts_SIM": 12,
+      "Treatment_Pre_Contribution_EUR_per_Account_Month_SIM": 129.53,
+      "Treatment_Post_Contribution_EUR_per_Account_Month_SIM": 157.68,
+      "Control_Pre_Contribution_EUR_per_Account_Month_SIM": 119.0,
+      "Control_Post_Contribution_EUR_per_Account_Month_SIM": 121.75,
+      "DiD_EUR_per_Account_Month_CALC": 25.4,
+      "Annualized_Contribution_Before_Program_EUR_SCENARIO": 3657.48,
+      "Program_Fixed_Cost_EUR_ASSUMED": 1950,
+      "Annualized_Net_EUR_SCENARIO": 1707.48,
+      "Bootstrap_90pct_Low_Net_EUR_SIM": 1343.12,
+      "Bootstrap_90pct_High_Net_EUR_SIM": 2052.4,
+      "Decision_Screen": "CONDITIONAL PILOT — gates required",
+      "Causal_Interpretation": "NOT causal proof; simulated counterfactual with stated design limitations",
+      "Data_Status": "SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA"
+    },
+    {
+      "Experiment_ID": "EX-05",
+      "Program": "Paper-seal application expansion",
+      "Treated_Accounts_SIM": 12,
+      "Control_Accounts_SIM": 12,
+      "Treatment_Pre_Contribution_EUR_per_Account_Month_SIM": 184.19,
+      "Treatment_Post_Contribution_EUR_per_Account_Month_SIM": 201.59,
+      "Control_Pre_Contribution_EUR_per_Account_Month_SIM": 197.42,
+      "Control_Post_Contribution_EUR_per_Account_Month_SIM": 200.98,
+      "DiD_EUR_per_Account_Month_CALC": 13.83,
+      "Annualized_Contribution_Before_Program_EUR_SCENARIO": 1991.56,
+      "Program_Fixed_Cost_EUR_ASSUMED": 3800,
+      "Annualized_Net_EUR_SCENARIO": -1808.44,
+      "Bootstrap_90pct_Low_Net_EUR_SIM": -2199.04,
+      "Bootstrap_90pct_High_Net_EUR_SIM": -1414.28,
+      "Decision_Screen": "HOLD — economics unfavorable",
+      "Causal_Interpretation": "NOT causal proof; simulated counterfactual with stated design limitations",
+      "Data_Status": "SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA"
+    }
+  ],
+  "limitations": [
+    "All observations generated from hypothetical assumptions; no Henkel operational data.",
+    "Treatment and comparison series are synthetic; results are NOT evidence of real causality.",
+    "Annualized value assumes 12 months of post period performance and excludes unmodeled overhead and implementation uncertainty.",
+    "Bootstrap interval describes synthetic sampling variation only, not uncertainty about the real world.",
+    "Rollout requires actual customers, approvals, baseline checks and ethics/safety review."
+  ]
+}

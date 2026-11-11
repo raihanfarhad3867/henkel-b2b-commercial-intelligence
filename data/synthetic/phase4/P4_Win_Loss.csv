@@ -1,0 +1,17 @@
+﻿Opportunity_ID,Case_ID,Market,Opportunity_Stage,CRM_Reason_Hypothesis,Potential_Annual_Volume_kg_ASSUMED,Created_On,Closed_On,Reason_Validation_Status,Data_Status
+OP-001,SIM-VN-FW-01,Footwear,Lost,Technical specification,5700,2026-01-09,2026-03-03,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-002,SIM-VN-FW-01,Footwear,Open,Unknown,5000,2026-07-04,,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-003,SIM-VN-FW-02,Footwear,Lost,Customer project postponed,2500,2026-02-10,2026-05-16,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-004,SIM-VN-FW-02,Footwear,Open,Unknown,1800,2026-08-08,,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-005,SIM-VN-FW-03,Footwear,Won,Not applicable,2700,2026-01-13,2026-04-19,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-006,SIM-VN-FW-03,Footwear,Won,Not applicable,1000,2026-05-14,2026-07-22,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-007,SIM-VN-FW-04,Footwear,Open,Qualification pending,4100,2026-05-11,,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-008,SIM-VN-FW-04,Footwear,Lost,Approval / timing,1900,2026-02-05,2026-06-19,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-009,SIM-EU-PK-01,Paper packaging,Lost,Delivery reliability,3900,2026-01-20,2026-05-20,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-010,SIM-EU-PK-01,Paper packaging,Open,Unknown,2400,2026-08-17,,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-011,SIM-EU-PK-02,Paper packaging,Won,Not applicable,3600,2026-01-11,2026-04-02,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-012,SIM-EU-PK-02,Paper packaging,Won,Not applicable,1900,2026-06-12,2026-09-15,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-013,SIM-EU-PK-03,Paper packaging,Lost,Price objection,3400,2026-03-21,2026-06-13,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-014,SIM-EU-PK-03,Paper packaging,Open,Unknown,2900,2026-08-03,,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-015,SIM-EU-PK-04,Paper packaging,Won,Not applicable,1200,2026-05-11,2026-07-26,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA
+OP-016,SIM-EU-PK-04,Paper packaging,Open,Unknown,1500,2026-09-15,,"CRM classification is synthetic, reason not independently verified",SIMULATED — NOT HENKEL CUSTOMER OR DISTRIBUTOR DATA

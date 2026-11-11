@@ -1,0 +1,8 @@
+﻿Research_ID,Research_Unit,Market,App_Relevance_0to5_ASSUMED,Source_Specificity_0to5_ASSUMED,Verified_Trigger_0to5_ASSUMED,Research_Interest_0to100_CALC,Henkel_Relationship,Commercial_Priority,Verification_Task,Important_Limitation
+VN-F01,TBS Group — Vietnam network,Footwear,4,4,2,70.0,Unknown,Not assessed,Identify relevant manufacturing site and shoe-bonding application,Analyst desk-research interest only
+VN-F02,Pou Chen — Vietnam network,Footwear,4,4,2,70.0,Unknown,Not assessed,"Verify buyer entity, local/brand specification ownership",Analyst desk-research interest only
+VN-F03,TKG Taekwang Vina,Footwear,4,4,2,70.0,Unknown,Not assessed,Verify production technologies and procurement governance,Analyst desk-research interest only
+EU-P01,Mondi Eschenbach,Packaging,5,5,3,90.0,Unknown,Not assessed,Map corrugated adhesive/coating applications and purchasing authority,Analyst desk-research interest only
+EU-P02,Mondi Mszczonow,Packaging,5,5,5,100.0,Unknown,Not assessed,Check 2026 line configuration and qualification plans,Expansion is documented; unmet demand is NOT
+EU-P03,Saica Bydgoszcz,Packaging,5,4,4,88.0,Unknown,Not assessed,Validate plant operations and post-acquisition supplier control,Acquisition is documented; switching is NOT
+EU-P04,Saica Wroclaw,Packaging,5,4,4,88.0,Unknown,Not assessed,Validate plant operations and post-acquisition supplier control,Acquisition is documented; switching is NOT
