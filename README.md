@@ -3,7 +3,25 @@
 
 > **Independent educational project. Not commissioned by, affiliated with or endorsed by Henkel.** Company financial figures are transcribed from official public reports. **All distributor, customer, channel, customer-level pricing, win/loss and experiment data are synthetic.** No internal Henkel data or real customer trials were used.
 
-![Commercial diagnostics dashboard preview](assets/phase4_sales_diagnostics_preview.png)
+## Executive snapshot — why this project matters
+
+![Executive commercial growth dashboard — official Henkel results and clearly separated simulated cases](assets/executive_growth_dashboard.svg)
+
+**The story in 20 seconds:** Adhesive Technologies shifted from predominantly volume-driven Q3 organic growth in 2024–2025 to price-driven growth in Q3 2026. The analytical challenge is to identify where *profitable customer-volume growth* might come from next, without assuming pricing strength is unsustainable or claiming that simulated customer outcomes are real.
+
+**[Explore the interactive executive dashboard](dashboards/executive_overview.html)** · Download the HTML file and open it in your browser to interact with year selection. GitHub displays HTML source rather than executing a full dashboard preview.
+
+| **OFFICIAL COMPANY EVIDENCE** | **SIMULATED ANALYTICAL EXERCISE** |
+|:--|:--|
+| Q3 2026 AT organic growth **+7.9%**; price **+7.2 pp**; volume **+0.7 pp** | Phase 4 fictional account-portfolio sales decline **−9.8%** |
+| Q3 2026 APC organic growth **+9.8%** | Phase 5: **4 of 5** hypothetical programs pass modeled screening |
+| **APC-specific price and volume contributions: not disclosed** | **No real distributor data, customer trials or approved pilots** |
+
+**Executive decision:** Investigate underlying volume opportunities, customer cost-in-use value and distribution coverage before selecting and testing profitable commercial initiatives.
+
+### Dashboard previews
+
+![Simulated commercial diagnostics — fictional case data](assets/phase4_sales_diagnostics_preview.png)
 
 ## Business problem
 
