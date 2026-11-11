@@ -1,41 +1,42 @@
-name: Unpack portfolio project into repository
+name: Portfolio integrity and one-time archive unpack
 on:
   push:
-    paths:
-      - .github/workflows/unpack-archive.yml
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  unpack:
+  validate-and-unpack:
     if: github.repository == 'raihanfarhad3867/henkel-b2b-commercial-intelligence'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout uploaded archive
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Extract project into repository root
+      - name: Unpack once, then run tests
         shell: bash
         run: |
           set -euo pipefail
-          unzip -q 'Henkel_B2B_Commercial_Intelligence_GitHub_Ready.zip' -d "$RUNNER_TEMP/project"
-          source_dir="$RUNNER_TEMP/project/henkel-b2b-commercial-intelligence"
-          test -f "$source_dir/README.md"
-          test -f "$source_dir/scripts/validate_repository.py"
-          cp -a "$source_dir/." .
+          if [ -f 'Henkel_B2B_Commercial_Intelligence_GitHub_Ready.zip' ]; then
+            unzip -q 'Henkel_B2B_Commercial_Intelligence_GitHub_Ready.zip' -d "$RUNNER_TEMP/project"
+            source_dir="$RUNNER_TEMP/project/henkel-b2b-commercial-intelligence"
+            test -f "$source_dir/README.md"
+            test -f "$source_dir/scripts/validate_repository.py"
+            cp -a "$source_dir/." .
+          fi
           python scripts/validate_repository.py
           python -m unittest discover -s tests -v
           python scripts/reproduce_all.py
-      - name: Commit organized project files
+      - name: Commit project folders, replacing uploaded ZIP
+        if: hashFiles('Henkel_B2B_Commercial_Intelligence_GitHub_Ready.zip') != ''
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md DISCLAIMER.md LICENSE .gitattributes .gitignore .github/workflows/quality.yml assets dashboards data docs notebooks reports requirements.txt scripts src tests
+          git add README.md DISCLAIMER.md LICENSE .gitattributes .gitignore assets dashboards data docs notebooks reports requirements.txt scripts src tests
           git rm -f 'Henkel_B2B_Commercial_Intelligence_GitHub_Ready.zip'
-          git commit -m 'Publish extracted commercial intelligence portfolio source files'
+          git commit -m 'Unpack project: publish documented source, data and dashboards'
           git push origin HEAD:main
