@@ -1,5 +1,5 @@
 # B2B Commercial Growth & Channel Intelligence
-### Henkel Adhesive Technologies / APC — independent portfolio case study
+### Independent case study | Financial growth quality, channel diagnostics and decision analytics
 
 > **Independent educational project. Not commissioned by, affiliated with or endorsed by Henkel.** Company financial figures are transcribed from official public reports. **All distributor, customer, channel, customer-level pricing, win/loss and experiment data are synthetic.** No internal Henkel data or real customer trials were used.
 
@@ -117,10 +117,10 @@ Reproduced results appear in `outputs/` (ignored by Git). You do not need a Henk
 - Margin comparisons must respect H1/FY periods; Q3-only/APC margins are not fabricated.
 - Financial and market sources have different units and coverage; read the source register before making comparisons.
 
-Read the [full disclaimer](DISCLAIMER.md), [data dictionary](docs/data_dictionary.md), and [publication checklist](docs/publish_checklist.md). Source documents are **linked**, not bundled, to respect publisher rights.
+Read the [full disclaimer](DISCLAIMER.md), [data dictionary](docs/data_dictionary.md), and [research quality and reproducibility policy](docs/research_quality.md). Source documents are **linked**, not bundled, to respect publisher rights.
 
 ## Executive presentation
 
-The [12-slide strategy deck](reports/executive/Henkel_APC_Executive_Strategy_Simulation.pptx) and [portfolio interview pitch](docs/interview_pitch.md) explain the decision questions and where real data/approvals would be required.
+The [12-slide strategy deck](reports/executive/Henkel_APC_Executive_Strategy_Simulation.pptx) summarizes the analytical questions, modeled scenarios, risks and evidence required before commercial action.
 
 **License:** MIT for original code/documentation only; external company marks and third-party content are excluded.
