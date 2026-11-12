@@ -77,17 +77,14 @@ These figures are **illustrations only**: not forecasts, customer spend, competi
 
 If public Adhesive Technologies growth remains pricing-heavy, the relevant Sales Excellence decision is not automatically to lower prices or chase volume. It is to establish *where incremental, profitable volume can be won*, at what qualification cost and through which route to market.
 
-### 8. Recommended four-week practical plan
-**Week 1 — Account research:** Present two facility briefs (one Vietnam footwear, one EU corrugated). List verified operations, unknowns and evidence sources. Do not assign estimated supplier contracts.
+### 8. Validation roadmap
+1. **Manufacturing footprint:** Document the operating activities and applications of one Vietnam footwear site and one EU corrugated site.
+2. **Application requirements:** Establish substrate, process, performance, qualification and approval requirements without inferring supplier relationships.
+3. **Economic feasibility:** Evaluate technical trials, total cost in use, contribution margin and risk using transparent hypothetical inputs.
+4. **Decision review:** Classify each hypothesis as supported, contradicted or unresolved and identify the missing evidence for a viable commercial opportunity.
 
-**Week 2 — Technical selling:** Study one Henkel shoe-bonding technology and one corrugating/converting technology. Draft discovery questions and a technical trial hypothesis for each.
-
-**Week 3 — Commercial economics:** Use the anonymous scenario lab to explore sensitivity to win rate, process volumes, pricing, contribution margins, and trial costs. Add a cost-in-use comparison using explicitly hypothetical factory assumptions.
-
-**Week 4 — Sales Excellence briefing:** Deliver a concise management memo: observed facts, competing explanations, next customer questions, resource needs and a go/no-go qualification checklist.
-
-### 9. What to say in a Henkel-style discussion
-> I started with Henkel's official growth disclosures, then mapped the application landscape and identified real manufacturing environments in Vietnam footwear and European corrugated packaging. I intentionally did not classify these organisations as Henkel prospects or estimate their adhesive purchases from public sources. Instead, I built a structured account-screening and qualification workflow, with a separate simulated scenario model, to show how Sales & Channel Excellence can turn market observations into evidence-based commercial decisions.
+### 9. Decision framework
+Publicly identified manufacturers are research cases, not established customers or qualified leads. The recommended progression is verified manufacturing activity → technical relevance → decision authority → feasibility → economic value → commercial authorization. All unverified attributes remain explicitly unknown.
 
 ### 10. Source register
 The `.xlsx` `P3_Source_Register` sheet includes 16 primary-source URLs, their uses, dates if available and limitations. Each account and competitor table also stores source IDs. Selected public sources:
