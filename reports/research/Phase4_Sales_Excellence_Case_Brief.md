@@ -1,7 +1,7 @@
 # Henkel Adhesive APC: Phase 4 Sales Diagnostics, Win/Loss & Commercial Decisions
 
 **Prepared:** 11 November 2026  
-**Purpose:** Learning exercise for global B2B Sales & Channel Excellence roles.  
+**Purpose:** Independent commercial analytics case study covering B2B growth diagnostics, win/loss methodology and decision economics.  
 **Evidence boundary:** Official Henkel sources establish product and company context. ALL Phase 4 accounts, orders, costs, CRM entries and commercial opportunities are fictional and simulated.
 
 ## Executive decision
@@ -71,16 +71,18 @@ Selected examples from simulated scenarios:
 
 The **€8,102** screened aggregate of selected modeled actions is NOT a company forecast. Actions may compete for scarce technical resources, their assumptions are not calibrated and some outcomes overlap. Management needs to verify economics and capacity before combining them.
 
-## 6. Suggested discussion with a Sales Excellence manager
-- How does the team distinguish an end-market contraction from customer-share loss in distributor sell-out data?
-- What evidence is required before a CRM 'Lost: Price' code is accepted as the root cause?
-- How do technical qualification steps affect opportunity aging and forecasting?
-- Which leading indicators (OTIF, repeat order rate, trial conversion, active customers, share of wallet) are used alongside revenue?
-- How does the team quantify intervention economics when price, service, channel margins and technical resources interact?
-- How are market, account and distributor-level commercial data governed and reconciled across global regions?
+## 6. Commercial evidence requirements
+The diagnostic should be supported by:
+- End-market output and distributor sell-in versus sell-out to distinguish market contraction from account-share losses.
+- Verified CRM win/loss reasons, technical specifications and opportunity stage histories.
+- Technical qualification duration, supply performance and customer order frequency.
+- Customer-level contribution margins, price realization and support costs.
+- Definitions, controls and permitted use of regional customer, account and distribution data.
+
+These requirements establish an evidence threshold for prospective decisions; none is asserted to be available in the public case materials.
 
 ## 7. What this project does not demonstrate
 This research does **not** establish Henkel's actual customer losses, its real product-margin structure, distributor identities, internal FSC responsibilities, channel agreements, confidential contract prices, or causal effectiveness of any action. The next real-world step would require authorized CRM, ERP, sell-out, technical approval and customer feedback data, subject to Henkel permissions.
 
-## 8. Future Phase 5
-Build a responsible *commercial experimentation and management decision system*: account discovery interviews; pilot hypotheses; agreed KPIs and success thresholds; cost and capability constraints; structured pilots with pre/post or comparison-group analysis; and an executive decision memo presenting evidence, risks and next actions.
+## 8. Experiment-design linkage
+A structured commercial experiment translates a validated root-cause hypothesis into a measurable proposed intervention, a comparison design, predefined success metrics, economic thresholds and safeguards. The separate Phase 5 study illustrates this approach using synthetic data only.
