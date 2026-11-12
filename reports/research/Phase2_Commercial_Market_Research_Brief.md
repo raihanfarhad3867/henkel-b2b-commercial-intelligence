@@ -95,9 +95,11 @@ Across all six invented cases, workbook formulas return **€1,411,101 simulated
 
 **Cross-cutting recommendation:** Build a stage-gated commercial funnel: *market signal → named customer → validated application → feasible technical trial → cost-in-use proof → actual contribution estimate → sales action*. Do not convert a proxy into a financial forecast.
 
-## 6. Interview-ready explanation
+## 6. Management interpretation
 
-> “After reviewing Henkel's Q3 results, I wanted to investigate how a commercial team could build a pipeline of profitable volume growth beyond pricing. I focused on two application markets relevant to APC: footwear and packaging converting. I first established the public market signals and their limits. Then I mapped adhesives to customer manufacturing decisions, designed falsifiable hypotheses, and built a separate simulated opportunity model incorporating qualification, channel and implementation costs. The model doesn't claim to reveal Henkel's actual distributors or market share; instead, it demonstrates the evidence I would need to prioritize account development.”
+The two application markets offer different growth mechanisms. Footwear requires qualified account penetration and demonstrable cost-in-use value; packaging can involve process redesign and technical requalification. Neither public manufacturing statistics nor regulatory developments establish a sales pipeline.
+
+The research therefore separates observable market signals from hypotheses and from investment decisions. Further commercial evaluation requires verified product fit, customer purchasing requirements, channel ownership, and unit economics.
 
 ## 7. Recommended next work package (Phase 3)
 
@@ -106,7 +108,7 @@ Across all six invented cases, workbook formulas return **€1,411,101 simulated
 1. Select **one footwear cluster** (India or Vietnam) and **one EU packaging sub-application** (paper converting or flexible packaging).
 2. Build a **public company/plant shortlist** based on documented manufacturers—not invented accounts—with source URLs and factory application descriptions.
 3. Define what would qualify a plant as addressable (process, materials, adhesive application and procurement authority).
-4. Build a mock discovery-interview guide for sales, engineering, distributor and buyer roles.
+4. Define technical and commercial discovery requirements across sales, engineering, distributors and purchasing functions.
 5. Replace only model assumptions for which a source is available; otherwise retain **SIMULATED** labels.
 
 **Research standard:** No claims that these are actual Henkel customers or that these sites are uncovered without internal evidence. Public manufacturers can serve as *research candidates* only.
