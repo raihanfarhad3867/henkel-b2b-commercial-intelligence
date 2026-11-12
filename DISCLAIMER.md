@@ -1,6 +1,6 @@
 # Independence, provenance and responsible use
 
-**Independent educational case study. Not affiliated with, commissioned, sponsored, endorsed or approved by Henkel.** No internal employee access or confidential financial, CRM, distributor, customer, order, pricing or experiment data were used. Do not imply otherwise in CVs, interviews or public posts.
+**Independent educational case study. Not affiliated with, commissioned, sponsored, endorsed or approved by Henkel.** No internal employee access or confidential financial, CRM, distributor, customer, order, pricing or experiment data were used. Do not present the project as an internal company study or portray simulated cases as actual Henkel operations.
 
 ## Evidence tiers
 1. `data/official_financials/`: manually transcribed public financial metrics, with reporting periods, disclosure statuses and official PDF links. Refer to Henkel's original statement when quoting numbers.
