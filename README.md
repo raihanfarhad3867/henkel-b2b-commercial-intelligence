@@ -3,6 +3,26 @@
 
 > **Independent educational project. Not commissioned by, affiliated with or endorsed by Henkel.** Company financial figures are transcribed from official public reports. **All distributor, customer, channel, customer-level pricing, win/loss and experiment data are synthetic.** No internal Henkel data or real customer trials were used.
 
+## Dashboard showcase — six-page commercial intelligence
+
+**Four executive-facing views** summarize the portfolio in a visually accessible way. The visuals below are static designs based on official financial reporting and explicitly simulated analytical examples, **not screenshots from a validated Power BI `.pbix`**.
+
+| Executive Overview | Growth Sustainability |
+|:--:|:--:|
+| ![Official AT/APC growth and executive interpretation](assets/portfolio_showcase/executive_overview.svg) | ![Official growth patterns and illustrative scenarios](assets/portfolio_showcase/growth_sustainability.svg) |
+| **Official financial performance** | **Official trends + hypothetical scenario** |
+
+| Customer & Channel | Commercial Strategy |
+|:--:|:--:|
+| ![Fictional channel KPI dashboard](assets/portfolio_showcase/customer_channel.svg) | ![Fictional pilot-economics dashboard](assets/portfolio_showcase/commercial_strategy.svg) |
+| **Synthetic distributors only** | **Synthetic experiments only** |
+
+**Dashboard navigation design:** Executive Overview → Growth Sustainability → Market & White Space → Customer & Channel → Sales Diagnostics → Commercial Strategy.
+
+**What the decision-maker learns:** What is reported? What might explain the trend? Which information is missing? Which test could validate a potentially profitable action?
+
+The repository includes Power BI DAX formulas and build blueprints in [`dashboards/powerbi/`](dashboards/powerbi/). These SVGs are a portfolio preview; the native six-page Power BI report still requires Desktop validation before publication.
+
 ## Executive snapshot — why this project matters
 
 ![Executive commercial growth dashboard — official Henkel results and clearly separated simulated cases](assets/executive_growth_dashboard.svg)
